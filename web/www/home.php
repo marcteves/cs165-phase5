@@ -55,6 +55,9 @@ tr.selected {
 	$user_data = get_user_data($_SESSION['email']);
 	echo 'Welcome, ' . $user_data["name"] . '<br>';
 	echo 'You are located at: ' . $user_data["short_name"] . '<br>';
+	if ($user_data['short_name'] === NULL) {
+		header('Location:  select_location.php');
+	}
 	# unset($_SESSION['request_id']);
 ?>
 	<br>
@@ -131,25 +134,8 @@ tr.selected {
 			<input type="text" name="deadline"
 				 placeholder="Deadline" value="2018-12-24" readonly='readonly'>
 				<input type="hidden" name="referrer" value="home.php">
-<?php
-		if (isset($_SESSION['location_id'])){
-			echo '<input type="hidden" name="location_id" value="' .
-				$_SESSION['location_id'] . '">';
-			echo 'Selected Location: ' . $_SESSION['short_name'];
-		}
-?>
 				<input type="submit" value="Add Request">
 			</form>
-	<form action="select_location.php" method="post">
-		<input type="hidden" name="referrer" value="/home.php">
-		<input type="hidden" name="request" value="true">
-		<input type="submit" value="Select a Location">
-	</form>
-<?php
-	if (!isset($_SESSION['location_id'])){
-		echo "Select a location first before creating a new task.";
-	}
-?>
 			</div>
 		</div>
 		<div class='available-panel'>

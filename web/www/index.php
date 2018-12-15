@@ -17,7 +17,7 @@
 	<h1>Log-in</h1>
 	<form action="auth.php" method="post">
 		<input type="text" name="email" placeholder="E-mail">
-		<input type="text" name="password" placeholder="Password">
+		<input type="password" name="password" placeholder="Password">
 		<input type="submit" value="Submit">
 	</form>
 
@@ -25,8 +25,8 @@
 	<form action="register.php" method="post">
 		<input type="text" name="name" placeholder="Name">
 		<input type="text" name="email" placeholder="E-mail">
-		<input type="text" name="password" placeholder="Password">
-		<input type="text" name="confirmPassword" placeholder="Confirm Password">
+		<input type="password" name="password" placeholder="Password">
+		<input type="password" name="confirmPassword" placeholder="Confirm Password">
 		<input type="submit" value="Submit">
 	</form>
 

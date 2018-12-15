@@ -37,8 +37,8 @@ CREATE TABLE Request (
 	posted_by INT NOT NULL REFERENCES User,
 	info VARCHAR(256) NOT NULL,
 	status_code INT(1) NOT NULL DEFAULT 0 REFERENCES Status,
-	deadline DATE NOT NULL,
-	location_id INT NOT NULL REFERENCES Location
+	deadline DATE NOT NULL
+	# location_id INT NOT NULL REFERENCES Location
 );
 
 CREATE TABLE Task (
@@ -84,8 +84,8 @@ SELECT Task.id, Task.last_assigned, Request.posted_by, User.name, Task.info,
 FROM Request
 JOIN Task ON Request.id = Task.task_in
 JOIN Location AS A ON Task.location_id = A.id
-JOIN Location AS B on Request.location_id = B.id
 JOIN User ON Request.posted_by = User.id
+JOIN Location AS B on User.location_id = B.id
 WHERE Request.status_code > -1;
 
 # Triggers to keep consistency
@@ -180,39 +180,39 @@ INSERT INTO User VALUES(3, "Mary", "mary@upd.edu.ph", "$2y$10$WA5uTbyRpFaIQ6ffFR
 
 # Requests & Associated Tasks
 # Posted by User Maria, has 2 associated tasks
-INSERT INTO Request(posted_by, info, deadline, location_id)
-	VALUES(1, "Get me some food.", '2018-12-24 00:00:01', 1);
+INSERT INTO Request(posted_by, info, deadline)
+	VALUES(1, "Get me some food.", '2018-12-24 00:00:01');
 INSERT INTO Task (info, status_code, bounty, task_in, location_id)  VALUES(
 	"Quarter pounder", 0, 15.0, 1, 5);
 INSERT INTO Task (info, status_code, bounty, task_in, location_id)  VALUES(
 	"Fishballs", 0, 5.0, 1, 7);
 
 # Posted by User Maria, has 2 associated tasks
-INSERT INTO Request(posted_by, info, deadline, location_id)
-	VALUES(1, "Get me some christmas supplies.", '2018-12-25 00:00:01', 2);
+INSERT INTO Request(posted_by, info, deadline)
+	VALUES(1, "Get me some christmas supplies.", '2018-12-25 00:00:01');
 INSERT INTO Task (info, status_code, bounty, task_in, location_id)  VALUES(
 	"Index cards", 0, 5.0, 2, 3);
 INSERT INTO Task (info, status_code, bounty, task_in, location_id)  VALUES(
 	"Christmas lights", 0, 5.0, 2, 6);
 
 # Note that this Request and corresponding tasks has been disabled.
-INSERT INTO Request(posted_by, info, deadline, location_id)
-	VALUES(2, "Banned words", '2018-12-24 00:00:01', 2);
+INSERT INTO Request(posted_by, info, deadline)
+	VALUES(2, "Banned words", '2018-12-24 00:00:01');
 INSERT INTO Task (info, status_code, bounty, task_in, location_id)  VALUES(
 	"Threats of violence", 0, 999.0, 3, 2);
 UPDATE Request SET status_code=-1 WHERE id = 3;
 
 # Posted by User Mary, has 3 associated tasks
-INSERT INTO Request(posted_by, info, deadline, location_id)
-	VALUES(3, "Get stuff I left at CS lib", '2018-12-25 00:00:01', 2);
+INSERT INTO Request(posted_by, info, deadline)
+	VALUES(3, "Get stuff I left at CS lib", '2018-12-25 00:00:01');
 INSERT INTO Task (info, status_code, bounty, task_in, location_id)  VALUES(
 	"Umbrella near the guard", 0, 5.0, 4, 9);
 INSERT INTO Task (info, status_code, bounty, task_in, location_id)  VALUES(
 	"ID at the lower floow", 0, 5.0, 4, 9);
 
 # Posted by User Madeline, has 1 associated task
-INSERT INTO Request(posted_by, info, deadline, location_id)
-	VALUES(2, "Org stuff", '2018-12-25 00:00:01', 2);
+INSERT INTO Request(posted_by, info, deadline)
+	VALUES(2, "Org stuff", '2018-12-25 00:00:01');
 INSERT INTO Task (info, status_code, bounty, task_in, location_id)  VALUES(
 	"Help with cleaning tambayan", 0, 5.0, 5, 4);
 

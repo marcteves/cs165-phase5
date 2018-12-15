@@ -81,7 +81,10 @@ More locations to be added.
 ?>
 	</table>
 	<form action="set_location.php" method="post">
-		<input type="hidden" name="referrer" value="<?php echo $_POST['referrer'] ?>">
+		<input type="hidden" name="referrer" value="<?php
+if(array_key_exists('referrer', $_POST)) { echo $_POST['referrer'];}
+else {echo 'home.php';}
+?>">
 		<input type="hidden" name="location_id" value="null">
 		<input type="hidden" name="short_name" value="null">
 		<input type="submit" value="Set Location">

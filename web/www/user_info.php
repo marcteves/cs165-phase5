@@ -4,7 +4,7 @@
 // return associated array of user info when user exists
 // otherwise, return false
 function get_user_data($email){
-	$user_query = 'SELECT User.*, short_name FROM User JOIN Location ON User.location_id=Location.id WHERE upmail=?';
+	$user_query = 'SELECT User.*, short_name FROM User LEFT OUTER JOIN Location ON User.location_id=Location.id WHERE upmail=?';
 	if ($prep_stmt = $GLOBALS['dbo']->prepare($user_query)){
 			$prep_stmt->execute([$email]);
 			if ($prep_stmt->rowCount() > 0) {
@@ -61,7 +61,8 @@ function get_user_posted_requests(){
 			Request.deadline, Location.short_name AS location
 		FROM Request
 		JOIN Status ON Request.status_code=Status.id
-		JOIN Location ON Request.location_id=Location.id
+		JOIN User ON Request.posted_by=User.id
+		JOIN Location ON User.location_id=Location.id
 		WHERE Request.posted_by = ?
 		';
 	if ($prep_stmt = $GLOBALS['dbo']->prepare($requests_query)){
@@ -77,7 +78,7 @@ function get_closest_tasks(){
 	$id = $_SESSION['id'];
 	$limit = 5;
 	$closest_tasks_query = '
-		SELECT *, ST_Distance(userloc, point) as distance
+		SELECT NearbyTasks.*, ST_Distance(userloc, point) as distance
 		FROM NearbyTasks,
 		(SELECT point AS userloc FROM User
 		JOIN Location ON Location.id=User.location_id WHERE User.id=?) AS

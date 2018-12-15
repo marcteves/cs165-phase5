@@ -412,3 +412,100 @@
 2018-12-15 11:56:34: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
 2018-12-15 11:59:39: (server.c.1731) logfiles cycled UID = 1000 PID = 5928 
 2018-12-15 11:59:39: (server.c.1731) logfiles cycled UID = 0 PID = 0 
+2018-12-15 12:16:55: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 12:17:47: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 12:24:25: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 12:24:33: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 12:30:19: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 12:30:32: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 12:41:37: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 12:44:53: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/accept_task.php on line 3
+2018-12-15 13:37:09: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 13:38:04: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/add_request.php on line 3
+2018-12-15 13:38:04: (mod_fastcgi.c.438) FastCGI-stderr: PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/reimu/acads/cs165/phase5/web/www/add_request.php on line 15
+2018-12-15 13:39:08: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/add_request.php on line 3
+2018-12-15 13:39:49: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 13:42:38: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 13:59:49: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 14:00:15: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 14:15:35: (mod_fastcgi.c.438) FastCGI-stderr: PHP Parse error:  syntax error, unexpected '{' in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:15:56: (mod_fastcgi.c.438) FastCGI-stderr: PHP Parse error:  syntax error, unexpected '{' in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:16:49: (mod_fastcgi.c.438) FastCGI-stderr: PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:17:13: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:17:18: (mod_fastcgi.c.438) FastCGI-stderr: PHP Warning:  Header may not contain more than a single header, new line detected in /home/reimu/acads/cs165/phase5/web/www/set_location.php on line 8
+2018-12-15 14:18:11: (mod_fastcgi.c.438) FastCGI-stderr: PHP Warning:  Header may not contain more than a single header, new line detected in /home/reimu/acads/cs165/phase5/web/www/set_location.php on line 8
+2018-12-15 14:20:34: (mod_fastcgi.c.438) FastCGI-stderr: PHP Warning:  Header may not contain more than a single header, new line detected in /home/reimu/acads/cs165/phase5/web/www/set_location.php on line 8
+2018-12-15 14:23:19: (mod_fastcgi.c.438) FastCGI-stderr: PHP Warning:  Header may not contain more than a single header, new line detected in /home/reimu/acads/cs165/phase5/web/www/set_location.php on line 8
+2018-12-15 14:23:19: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:23:22: (mod_fastcgi.c.438) FastCGI-stderr: PHP Warning:  Header may not contain more than a single header, new line detected in /home/reimu/acads/cs165/phase5/web/www/set_location.php on line 8
+2018-12-15 14:23:24: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:23:25: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: email in /home/reimu/acads/cs165/phase5/web/www/home.php on line 55
+2018-12-15 14:23:25: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 43
+2018-12-15 14:23:25: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 57
+2018-12-15 14:23:25: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 78
+2018-12-15 14:23:25: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:23:26: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: email in /home/reimu/acads/cs165/phase5/web/www/home.php on line 55
+2018-12-15 14:23:26: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 43
+2018-12-15 14:23:26: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 57
+2018-12-15 14:23:26: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 78
+2018-12-15 14:23:26: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:23:33: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 14:23:33: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:23:36: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: email in /home/reimu/acads/cs165/phase5/web/www/home.php on line 55
+2018-12-15 14:23:36: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 43
+2018-12-15 14:23:36: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 57
+2018-12-15 14:23:36: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 78
+2018-12-15 14:23:36: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:23:49: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 14:26:14: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 14:27:51: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 14:27:51: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:27:54: (mod_fastcgi.c.438) FastCGI-stderr: PHP Warning:  Header may not contain more than a single header, new line detected in /home/reimu/acads/cs165/phase5/web/www/set_location.php on line 8
+2018-12-15 14:28:43: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:30:18: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:30:20: (mod_fastcgi.c.438) FastCGI-stderr: PHP Warning:  Header may not contain more than a single header, new line detected in /home/reimu/acads/cs165/phase5/web/www/set_location.php on line 12
+2018-12-15 14:34:59: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:35:01: (mod_fastcgi.c.438) FastCGI-stderr: PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/reimu/acads/cs165/phase5/web/www/set_location.php on line 6
+2018-12-15 14:35:12: (mod_fastcgi.c.438) FastCGI-stderr: PHP Warning:  Header may not contain more than a single header, new line detected in /home/reimu/acads/cs165/phase5/web/www/set_location.php on line 9
+2018-12-15 14:35:37: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:35:37: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: email in /home/reimu/acads/cs165/phase5/web/www/home.php on line 55
+2018-12-15 14:35:37: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 43
+2018-12-15 14:35:37: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 57
+2018-12-15 14:35:37: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 78
+2018-12-15 14:35:37: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:35:42: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: email in /home/reimu/acads/cs165/phase5/web/www/home.php on line 55
+2018-12-15 14:35:42: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 43
+2018-12-15 14:35:42: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 57
+2018-12-15 14:35:42: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 78
+2018-12-15 14:35:42: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:35:43: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: request_id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 56
+2018-12-15 14:35:43: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 57
+2018-12-15 14:35:43: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: request_id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 80
+2018-12-15 14:35:43: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 80
+2018-12-15 14:35:43: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: request_id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 130
+2018-12-15 14:35:45: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: request_id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 56
+2018-12-15 14:35:45: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 57
+2018-12-15 14:35:45: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: request_id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 80
+2018-12-15 14:35:45: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 80
+2018-12-15 14:35:45: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: request_id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 130
+2018-12-15 14:35:55: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 14:35:55: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:35:57: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: email in /home/reimu/acads/cs165/phase5/web/www/home.php on line 55
+2018-12-15 14:35:57: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 43
+2018-12-15 14:35:57: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 57
+2018-12-15 14:35:57: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 78
+2018-12-15 14:35:57: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:35:58: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: request_id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 56
+2018-12-15 14:35:58: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 57
+2018-12-15 14:35:58: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: request_id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 80
+2018-12-15 14:35:58: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 80
+2018-12-15 14:35:58: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: request_id in /home/reimu/acads/cs165/phase5/web/www/view_request.php on line 130
+2018-12-15 14:36:01: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: email in /home/reimu/acads/cs165/phase5/web/www/home.php on line 55
+2018-12-15 14:36:01: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 43
+2018-12-15 14:36:01: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 57
+2018-12-15 14:36:01: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: id in /home/reimu/acads/cs165/phase5/web/www/user_info.php on line 78
+2018-12-15 14:36:01: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  Undefined index: referrer in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 84
+2018-12-15 14:37:36: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 14:37:36: (mod_fastcgi.c.438) FastCGI-stderr: PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/reimu/acads/cs165/phase5/web/www/select_location.php on line 85
+2018-12-15 14:38:12: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/auth.php on line 22
+2018-12-15 14:46:00: (mod_fastcgi.c.438) FastCGI-stderr: PHP Notice:  session_start(): A session had already been started - ignoring in /home/reimu/acads/cs165/phase5/web/www/accept_task.php on line 3

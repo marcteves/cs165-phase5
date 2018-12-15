@@ -49,7 +49,8 @@ tr.selected {
 			Request.deadline, Location.short_name AS location
 		FROM Request
 		JOIN Status ON Request.status_code=Status.id
-		JOIN Location ON Request.location_id=Location.id
+		JOIN User ON Request.posted_by=User.id
+		JOIN Location ON User.location_id=Location.id
 		WHERE Request.id=? AND Request.posted_by = ?';
 		if ($prep_stmt = $GLOBALS['dbo']->prepare($request_query)){
 				$prep_stmt->execute([$_SESSION['request_id'],
