@@ -86,7 +86,7 @@ JOIN Task ON Request.id = Task.task_in
 JOIN Location AS A ON Task.location_id = A.id
 JOIN User ON Request.posted_by = User.id
 JOIN Location AS B on User.location_id = B.id
-WHERE Request.status_code > -1;
+WHERE Request.status_code > -1 AND Task.status_code < 2;
 
 # Triggers to keep consistency
 
